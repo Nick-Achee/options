@@ -15,23 +15,23 @@ const Main = () => (
       </Head>
 <div className="pt-2">
   <h1 className="pt-40 text-4xl text-center font-prag font-bold text-white flex fixed w-screen justify-center items-center">Nick Achee</h1>
-<div className="flex items-center justify-center space-x-4 h-screen ">
+<div className="content-center flex  sm:flex items-center justify-center flex-wrap space-x-4 h-screen ">
   
- 
+<div className="p-2">
   <a class="relative inline-block text-xl font-prag font-bold text-black group active:text-black focus:outline-none focus:ring" href="https://susanchase.com">
   <span class="absolute inset-0 transition-transform translate-x-1 translate-y-1 bg-black group-hover:translate-y-0 group-hover:translate-x-0"></span>
 
-  <span class="relative block px-4 py-3 bg-white border-2 border-current">
+  <span class="relative  block px-4 py-3 bg-white border-2 border-current">
     Real Estate<span aria-hidden="true" className="ml-2" role="img">🏡</span>
   </span>
-</a>
+</a></div><div className="p-2">
 <a class="relative inline-block text-xl font-prag font-bold text-black group active:text-black focus:outline-none focus:ring" href="https://nickachee.xyz">
   <span class="absolute inset-0 transition-transform translate-x-1 translate-y-1 bg-black group-hover:translate-y-0 group-hover:translate-x-0"></span>
 
   <span class="relative block px-4 py-3 bg-white border-2 border-current">
    Digital Strategy<span aria-hidden="true" className="ml-2" role="img">🎯</span>
   </span>
-</a>
+</a></div>
 
 
 </div>
