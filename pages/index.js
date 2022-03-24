@@ -16,7 +16,7 @@ const Main = () => (
 <div className="pt-2">
   <h1 className="pt-40 text-4xl text-center font-prag font-bold text-white flex fixed w-screen justify-center items-center">Nick Achee</h1>
 <div className="flex items-center justify-center h-screen ">
-  <div className="border-2 border-black m-4 bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 text-black font-prag text-lg px-6 py-3 font-bold rounded-sm hover:transition duration-700 hover:text-white hover:bg-black">
+  <div className="border-2 border-black m-4 bg-white text-black font-prag text-lg px-6 py-3 font-bold rounded-sm hover:transition duration-700 hover:text-white hover:bg-black">
     <Link href="//susanchase.com">
     <a>Real Estate<span aria-hidden="true" className="ml-2" role="img">🏡</span></a>
     </Link>
