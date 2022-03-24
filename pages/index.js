@@ -15,17 +15,25 @@ const Main = () => (
       </Head>
 <div className="pt-2">
   <h1 className="pt-40 text-4xl text-center font-prag font-bold text-white flex fixed w-screen justify-center items-center">Nick Achee</h1>
-<div className="flex items-center justify-center h-screen ">
-  <div className="border-2 border-black m-4 bg-white text-black font-prag text-lg px-6 py-3 font-bold rounded-sm hover:transition duration-700 hover:text-white hover:bg-black">
-    <Link href="//susanchase.com">
-    <a>Real Estate<span aria-hidden="true" className="ml-2" role="img">🏡</span></a>
-    </Link>
-  </div>
-  <div className="border-2 border-black m-4 bg-white text-black font-prag text-lg px-6 py-3 font-bold rounded-sm transform hover:transition duration-700 hover:text-white hover:bg-black hover:scale-125">
-    <Link href="//nickachee.xyz">
-    <a>Digital Strategy <span aria-hidden="true" className="ml-1.5" role="img">🎯</span></a>
-    </Link>
-  </div>
+<div className="flex items-center justify-center space-x-4 h-screen ">
+  
+ 
+  <a class="relative inline-block text-xl font-prag font-bold text-black group active:text-black focus:outline-none focus:ring" href="https://susanchase.com">
+  <span class="absolute inset-0 transition-transform translate-x-1 translate-y-1 bg-black group-hover:translate-y-0 group-hover:translate-x-0"></span>
+
+  <span class="relative block px-4 py-3 bg-white border-2 border-current">
+    Real Estate<span aria-hidden="true" className="ml-2" role="img">🏡</span>
+  </span>
+</a>
+<a class="relative inline-block text-xl font-prag font-bold text-black group active:text-black focus:outline-none focus:ring" href="https://nickachee.xyz">
+  <span class="absolute inset-0 transition-transform translate-x-1 translate-y-1 bg-black group-hover:translate-y-0 group-hover:translate-x-0"></span>
+
+  <span class="relative block px-4 py-3 bg-white border-2 border-current">
+   Digital Strategy<span aria-hidden="true" className="ml-2" role="img">🎯</span>
+  </span>
+</a>
+
+
 </div>
 </div>
 </div>

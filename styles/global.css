@@ -1,8 +1,10 @@
+@import url("https://use.typekit.net/lkw2nsj.css");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@import url("https://use.typekit.net/lkw2nsj.css");
+
 
 @layer base {
   @font-face {
