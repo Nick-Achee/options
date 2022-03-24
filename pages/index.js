@@ -2,7 +2,7 @@ import Link from 'next/link';
 import Head from 'next/head'
 
 
-const imgURL = "https://purecous.s3.us-east-2.amazonaws.com/3.jpg"
+const imgURL = "https://purecous.s3.us-east-2.amazonaws.com/3.webp"
 
 const Main = () => (  
   
@@ -18,7 +18,7 @@ const Main = () => (
 <div className="content-center flex  sm:flex items-center justify-center flex-wrap space-x-4 h-screen ">
   
 <div className="p-2">
-  <a class="relative inline-block text-xl font-prag font-bold text-black group active:text-black focus:outline-none focus:ring" href="https://susanchase.com">
+  <a class="relative inline-block text-xl font-prag font-bold text-black group active:text-black focus:outline-none focus:ring" href="https://susanchase.com/agents/nick-achee">
   <span class="absolute inset-0 transition-transform translate-x-1 translate-y-1 bg-black group-hover:translate-y-0 group-hover:translate-x-0"></span>
 
   <span class="relative  block px-4 py-3 bg-white border-2 border-current">
