@@ -3,11 +3,18 @@ import Head from 'next/head'
 import Image from 'next/image'
 
 
-const imgURL = "https://purecous.s3.us-east-2.amazonaws.com/3.webp"
-
 const Main = () => (  
   
-<div className="overflow-auto bg-cover" style={{backgroundImage: `url(${imgURL})`,}}>
+<div className="overflow-auto">
+<div className="fixed h-screen w-screen -z-1 overflow-hidden ">
+      <Image
+        alt="Laguna Beach Gillette Fireplace Home"
+        src="/3.webp"
+        layout="fill"
+        objectFit="cover"
+        quality={100}
+      />
+    </div>
 <Head>
         <title>Nick Achee</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" /> <meta property="og:Nick Achee" content="Who is Nick?" key="Nick Achee" />

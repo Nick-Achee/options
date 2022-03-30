@@ -9,6 +9,7 @@
         "start": "next start"
     },
     "dependencies": {
+        "@phntms/next-gtm": "^0.1.0",
         "daisyui": "^2.11.1",
         "next": "^12.1.0",
         "react": "^16.13.1",
