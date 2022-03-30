@@ -12,7 +12,8 @@
         "daisyui": "^2.11.1",
         "next": "^12.1.0",
         "react": "^16.13.1",
-        "react-dom": "^16.13.1"
+        "react-dom": "^16.13.1",
+        "react-gtm-module": "^2.0.11"
     },
     "devDependencies": {
         "autoprefixer": "^10.4.4",

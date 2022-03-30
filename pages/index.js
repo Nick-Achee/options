@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import Head from 'next/head'
+import Image from 'next/image'
 
 
 const imgURL = "https://purecous.s3.us-east-2.amazonaws.com/3.webp"
