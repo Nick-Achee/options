@@ -9,7 +9,7 @@ const Main = () => (
 <div className="fixed h-screen w-screen -z-1 overflow-hidden ">
       <Image
         alt="Laguna Beach Gillette Fireplace Home"
-        src="/3.webp"
+        src="/33.jpg"
         layout="fill"
         objectFit="cover"
         quality={100}
