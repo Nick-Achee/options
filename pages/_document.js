@@ -1,5 +1,5 @@
 import Script from 'next/script'
-import Document, { Html, Head, Main} from 'next/document'
+import Document, { Html, Head, Main, NextScript} from 'next/document'
 
 class MyDocument extends Document {
   render() {
@@ -70,7 +70,7 @@ class MyDocument extends Document {
             crossOrigin="anonymous"
           />
 
-          <Script
+          <Script d="google-tag-manager" strategy="afterInteractive"
             dangerouslySetInnerHTML={{
               __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
